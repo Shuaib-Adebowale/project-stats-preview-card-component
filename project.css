@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(233, 47%, 7%);
+}
+
+/* HEADER */
+.header{
+    background-color:  hsl(244, 38%, 16%);
+    margin: 150px 300px 0;
+    height: 270px;
+}
+/* HEADER-1 */
+.header-1{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+/* HEADER-3 */
+.header-3{
+    text-align: center;
+    margin: 20px 0 0;
+}
+/* HEADER-3 */
+.header-3 h1{
+    text-align: start;
+    margin: 0 70px;
+    color: #fff;
+    font-family: arial;
+    font-weight: 600;
+}
+.header-3 p{
+    margin: 20px 80px;
+    text-align: start;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+/* HEADER-4 */
+.header-4{
+   display: flex;
+   justify-content: start;
+   margin: 5px 50px;
+}
+.col{
+    color:   hsl(277, 64%, 61%);
+}
+/* NAV */
+.nav{
+    margin: 0 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.nav-1 h1{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 600;
+}
+.nav-1 p{
+    font-size: 7px;
+    font-family: arial;
+}
+.nav-2 h1{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 600;
+}
+.nav-2 p{
+    font-size: 7px;
+    font-family: arial;
+}
+.nav-3 h1{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 600;
+}
+.nav-3 p{
+    font-size: 7px;
+    font-family: arial;
+}
+/* SELECT */
+.select{
+    height: 270px;
+    width: 700px;
+}
+
+/* @MEDIA */
+@media (max-width: 500px) {
+  .header{
+    margin: 50px 20px 0;
+  }
+  .header-1{
+    flex-direction: column-reverse;
+    background-color: #140227;
+    margin: 30px 0;
+  }
+  .header-3{
+    margin: 0;
+  }
+  .header-3 h1{
+    font-size: 25px;
+    margin: 40px 0;
+    padding: 0 60px;
+    text-align: center;
+  }
+  .header-3 p{
+    margin: 0 73px 40px;
+    text-align: center;
+    line-height: 1.5;
+   
+  }
+  .header-4{
+    margin: 20px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav{
+    margin: 20px 0;
+  }
+  .nav h1{
+    color: #fff;
+  }
+  .select{
+    width: 100%;
+  }
+}
